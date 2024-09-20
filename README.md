@@ -82,3 +82,58 @@ This project is licensed under the MIT License. Feel free to modify, distribute,
 ---
 
 **This README sets the foundation for a multi-faceted project that combines back-end, front-end, and ML capabilities, encouraging community contributions and making it suitable for diverse applications.**
+
+# SqueezeStack-DB Project Structure
+
+```markdown
+SqueezeStack-DB/
+│
+├── README.md                   # Project overview and documentation
+├── .env                        # Environment variables (database credentials, AWS keys, etc.)
+├── .gitignore                   # Ignored files and directories
+├── docker-compose.yml           # Docker Compose for local PostgreSQL and back-end setup
+├── backend/                     # Back-end logic and API
+│   ├── app/                     # Application code
+│   │   ├── __init__.py          # App initialization
+│   │   ├── models.py            # Database models
+│   │   ├── routes.py            # API routes for CRUD operations
+│   │   ├── config.py            # Configuration for Flask/Django and PostgreSQL
+│   │   ├── s3.py                # AWS S3 integration (for storing images)
+│   │   └── ml/                  # Machine Learning models
+│   │       ├── recommender.py   # DeepML recommendation system
+│   │       └── train.py         # Training script for ML model
+│   ├── requirements.txt         # Python dependencies for back-end
+│   ├── wsgi.py                  # Entry point for Flask/Django app
+│   └── migrations/              # Database migration files (Flask-Migrate or Django Migrations)
+│
+├── frontend/                    # Front-end React application
+│   ├── public/                  # Public assets (HTML file, icons)
+│   ├── src/                     # Source code for React components
+│   │   ├── components/          # React components (e.g., forms, recipe display)
+│   │   ├── services/            # API service to interact with back-end
+│   │   ├── App.js               # Main React App entry point
+│   │   └── index.js             # ReactDOM rendering
+│   ├── package.json             # Front-end dependencies and scripts
+│   └── package-lock.json        # Lock file for consistent dependency installation
+│
+├── scripts/                     # Helper scripts for deployment, database, and AWS integration
+│   ├── deploy.sh                # Shell script for deploying on AWS
+│   ├── db_init.sql              # SQL script for initializing database schema
+│   └── upload_to_s3.py          # Python script for batch uploading images to S3
+│
+├── tests/                       # Unit and integration tests for the application
+│   ├── test_backend.py          # Tests for back-end API
+│   ├── test_frontend.js         # Tests for React components
+│   └── test_ml.py               # Tests for ML models and predictions
+│
+├── data/                        # Data files for analysis, training ML models, or sample inputs
+│   ├── juice_recipes.csv        # Example dataset with juice recipes
+│   └── nutrition_data.json      # JSON file with nutritional data for juices
+│
+└── docs/                        # Project documentation, guides, and design documents
+    ├── API_Documentation.md     # Documentation for API endpoints
+    ├── ML_Model_Description.md  # Description of ML models and use cases
+    ├── DB_Schema.md             # Database schema and table descriptions
+    └── Contribution_Guide.md    # Guide for contributors on how to set up and contribute
+
+```
