@@ -47,9 +47,23 @@ We are looking for contributions across **front-end development**, **data scienc
 - **API Services**: Integrate juice data into broader platforms using REST APIs.
 - **Microservices**: Develop juice-related microservices for larger health and fitness platforms.
 
-## Front-End Setup
+## Contributing
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/vewiser/squeezestack-db.git
-cd squeezestack-db/frontend
+We welcome community contributions! Feel free to:
+
+- **Fork the repository**
+- **Submit pull requests**
+- **Create issues** for bugs, features, or improvements
+
+## Community Engagement
+
+This open-source project emphasizes **collaborative growth**:
+
+- **Data Analysts**: You can use this database for research, trends analysis, and nutritional insights.
+- **Developers**: Contribute to the back-end or front-end components.
+- **Machine Learning Experts**: Use DeepML models to predict recipe recommendations and help users achieve their health goals.
+- **API Developers**: Build robust APIs that serve juice data to web and mobile applications.
+
+## License
+
+This project is licensed under the MIT License. Feel free to modify, distribute, and contribute!
