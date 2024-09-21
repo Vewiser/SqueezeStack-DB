@@ -81,8 +81,6 @@ This project is licensed under the MIT License. Feel free to modify, distribute,
 
 ---
 
-**This README sets the foundation for a multi-faceted project that combines back-end, front-end, and ML capabilities, encouraging community contributions and making it suitable for diverse applications.**
-
 # SqueezeStack-DB Project Structure
 
 ```markdown
