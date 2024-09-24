@@ -5,7 +5,6 @@
 ## Overview
 This project is an **open-source** application designed to store and manage juice recipes, ingredients, and nutritional information. It features a **PostgreSQL** backend, **AWS** integration, and a dynamic **front-end** to display recipes, filter options, and nutritional information. The project also includes an opportunity to integrate **DeepML** for predictive analysis and recipe recommendations.
 
-***We welcome contributions from developers, data scientists, and front-end engineers to help grow this community-driven project.***
 
 ## Why This Project?
 The goal is to create a collaborative platform that can be used by various stakeholders—developers, health enthusiasts, and data professionals. This project emphasizes:
@@ -74,6 +73,8 @@ This open-source project emphasizes **collaborative growth**:
 - **Data Visualization**: View charts and graphs that display nutritional information or recipe trends.
 - **DeepML Integration**: Displays recommendations or predictions from machine learning models, such as suggesting juices based on personal health goals or preferences.
 
+
+***We welcome contributions from developers, data scientists, and front-end engineers to help grow this community-driven project.***
 
 ## License
 
